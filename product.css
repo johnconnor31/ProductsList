@@ -2,7 +2,7 @@
 }
 
 .product{
-	height: 500px;
+	height: 430px;
 	width: 20%;
 	float: left;
 
@@ -16,3 +16,39 @@
 	display: table;
 	margin:0 auto;
 }
+
+#toolbar{
+	width: 100%;
+	right: 5px;
+}
+
+div.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.pagination {
+    display: table;
+    margin:0 auto;
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: orange;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}

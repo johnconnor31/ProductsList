@@ -11,20 +11,34 @@
 <body>
 	<div id='toolbar'>
 		grid Size:
-		<select name='gridSize'>
+		<select id='gridSize' onChange='gridChange()'>
 			<option value='3'>3 in a row </option>
 			<option value='5' selected="true">5 in a row </option>
 		</select>
-	 </div>
+		<br />
+		<br />
+	</div>
 	<div id='imgGrid'>
-		<div class='product'>
+		<div class='product polaroid'>
 			<img class='image' src='17JU034A_Multi_0.jpg'></img>
-			<div class='details'>
-				<div class='name'>name</div>
+			<div class='details container'>
+				<br />
+				<div style='font-family: cursive; background-color: #E0FFFF' class='name'>name</div>
+				<br />
 				<div class='sizes'>sizes</div>
 				<div class='colors'>colors</div>
 			</div>
 		</div>
+	</div>
+	<div class="pagination">
+	  <a href="#">&laquo;</a>
+	  <a class="active" href="#">1</a>
+	  <a href="#">2</a>
+	  <a href="#">3</a>
+	  <a href="#">4</a>
+	  <a href="#">5</a>
+	  <a href="#">6</a>
+	  <a href="#">&raquo;</a>
 	</div>
 </body>
 
