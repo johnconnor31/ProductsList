@@ -2,11 +2,30 @@
 <html>
 
 <head>
-    <script type='text/javascript' src='products.js' />
+	<meta charset="utf-8"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src='products.js'></script>
+    <link rel='stylesheet' href='product.css' />
 </head>
 
 <body>
-	
+	<div id='toolbar'>
+		grid Size:
+		<select name='gridSize'>
+			<option value='3'>3 in a row </option>
+			<option value='5' selected="true">5 in a row </option>
+		</select>
+	 </div>
+	<div id='imgGrid'>
+		<div class='product'>
+			<img class='image' src='17JU034A_Multi_0.jpg'></img>
+			<div class='details'>
+				<div class='name'>name</div>
+				<div class='sizes'>sizes</div>
+				<div class='colors'>colors</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
