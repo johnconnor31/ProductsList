@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script type='text/javascript' src='index.js'></script> -->
+    <link rel='stylesheet' href='product.css' />
+    <link rel="stylesheet" href="w3.css">
+    <script type="text/javascript" src='product.js'></script>
+    <script type="text/javascript" src='slider.js'></script>
+</head>
+
+<body>
+	<div id='content'>
+		<a href='index.html'>Back to list</a>
+	<div class='header'>
+		product Id
+	</div>	
+	<div id='productDetail'>
+		<div class="w3-content w3-display-container img">
+			<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+		<div class='detail'>
+			<div class='description' style='background-color: #FFFAF0; margin-top:10px;'>Description:${currentProduct} </div>
+			<div class='size'>Sizes:</div>
+			<div class='stock'>Stock:</div>
+			<div class='color'>Color:</div>
+			<div class='weblink'>WebLink</div>
+			<div class='tag'>Tag:</div>
+			<div class='categories'> Category:</div>
+			<div class='price'> Price: </div>
+		</div>
+		</div>
+	</div>
+</body>
+
+
