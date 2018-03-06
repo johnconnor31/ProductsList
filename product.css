@@ -1,54 +1,35 @@
-#imgGrid{
+
+.content{
+	position: relative;
+	width: 60%;
+	align-content: center;
 }
 
-.product{
-	height: 430px;
-	width: 20%;
+.header{
+	position: relative;
+	left: 100px;
+	height: 50px;
+	font-family:  Century Gothic;
+	font-size: 25px;
+	background-color: #00FFFF;
+}
+
+.productDetail{
+	
+}
+
+.img{
+	width: 30%;
 	float: left;
-
 }
-.image{
-	display: table;
-	margin:0 auto;
-}
-
-.details{
-	display: table;
-	margin:0 auto;
+.detail{
+	width: 30%;
+	float: left;
+	position: relative;
+	left: 20px;
+	margin-top: 20px;
 }
 
-#toolbar{
-	width: 100%;
-	right: 5px;
+.description, .size,.stock,.color,.weblink,.tag,.categories,.price{
+	style='background-color: #FFFAF0; margin-top:10px;
 }
-
-div.polaroid {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-.pagination {
-    display: table;
-    margin:0 auto;
-
-}
-
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-.pagination a.active {
-    background-color: orange;
-    color: white;
-}
-
-.pagination a:hover:not(.active) {background-color: #ddd;}
